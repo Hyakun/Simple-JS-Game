@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: black;
+}
+#character{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    top: 100px;
+}
+
+#block{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    
+    
+}
+.animeaza{
+    animation: block 1s infinite linear;
+}
+
+@keyframes block{
+    0% {left: 480px;}
+    100% {left: -40px;}
+    
+}
+
+#start{
+    background-color: red;
+    color: blue;
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    border-radius: 50%;
+    padding:10px;
+}
+#sco{
+    color:green;
+    position: absolute;
+    left:200px;
+}
